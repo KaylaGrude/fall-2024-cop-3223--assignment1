@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#define pi = 3.14159;
+#define pi 3.14159;
 
 double distanceFormula();
 double calculateDistance();
@@ -17,7 +17,7 @@ int main(int argc, char **argv)
     calculateArea();
     calculateWidth();
     calculateHeight();
-    askForUserInput();
+    //askForUserInput();
     return 0;
 }
 
@@ -42,9 +42,9 @@ double calculateDistance()
     printf("Point #1: (%3lf, %3lf)\n",x1,y1 );
     printf("Point #2: (%3lf, %3lf)\n",x2,y2 );
 
-    double dist = distanceFormula(x1, y1, x2, y2);
+    double distance = distanceFormula(x1, y1, x2, y2);
 
-    printf("The distance between the two points is %3lf\n", dist);
+    printf("The distance between the two points is %3lf\n", distance);
 
     return 0;
 }
@@ -64,9 +64,9 @@ double calculatePerimeter()
 
     double dist = distanceFormula(x1, y1, x2, y2);
 
-    double peri = (dist * 2 * pi);
+    double perimeter = (dist * 2 * M_PI);
 
-    printf("The perimeter of the city encompassed by your request is %3lf\n", );
+    printf("The perimeter of the city encompassed by your request is %3lf\n", perimeter );
 
     return 4;
 }
@@ -86,7 +86,7 @@ double calculateArea()
 
     double dist = distanceFormula(x1, y1, x2, y2);
 
-    double area = (pi * pow(dist,2));
+    double area = (M_PI * pow(dist,2));
 
     printf("The area of the city encompassed by your request is %3lf\n",area);
 }
@@ -128,7 +128,7 @@ double calculateHeight()
 }
 
 //double askForUserInput()
-{
+//{
    // double x1, x2, y1, y2;
 
     //printf("Please enter x1 and x2: ");
@@ -140,4 +140,4 @@ double calculateHeight()
     //printf("Point #1: (%3lf, %3lf)\n",x1,y1 );
     // printf("Point #2: (%3lf, %3lf)\n",x2,y2 );
 
-}
+//

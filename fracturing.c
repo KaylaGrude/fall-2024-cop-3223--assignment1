@@ -33,10 +33,10 @@ double calculateDistance()
 {
     double x1, x2, y1, y2;
 
-    printf("Please enter x1 and x2: ");
+    printf("Please enter x1 and x2: \n");
     scanf("%3lf %3lf", &x1, &x2);
 
-    printf("Please enter y1 and y2: ");
+    printf("Please enter y1 and y2: \n");
     scanf("%3lf %3lf", &y1, &y2);
 
     printf("Point #1: (%3lf, %3lf)\n",x1,y1 );
@@ -53,10 +53,10 @@ double calculatePerimeter()
 {
    double x1, x2, y1, y2;
 
-    printf("Please enter x1 and x2: ");
+    printf("Please enter x1 and x2:\n");
     scanf("%3lf %3lf", &x1, &x2);
 
-    printf("Please enter y1 and y2: ");
+    printf("Please enter y1 and y2:\n");
     scanf("%3lf %3lf", &y1, &y2);
 
     printf("Point #1: (%3lf, %3lf)\n",x1,y1 );
@@ -75,10 +75,10 @@ double calculateArea()
 {
     double x1, x2, y1, y2;
 
-    printf("Please enter x1 and x2: ");
+    printf("Please enter x1 and x2: \n");
     scanf("%3lf %3lf", &x1, &x2);
 
-    printf("Please enter y1 and y2: ");
+    printf("Please enter y1 and y2: \n");
     scanf("%3lf %3lf", &y1, &y2);
 
     printf("Point #1: (%3lf, %3lf)\n",x1,y1 );
@@ -97,10 +97,10 @@ double calculateWidth()
 {
     double x1, x2, y1, y2;
 
-    printf("Please enter x1 and x2: ");
+    printf("Please enter x1 and x2: \n");
     scanf("%3lf %3lf", &x1, &x2);
 
-    printf("Please enter y1 and y2: ");
+    printf("Please enter y1 and y2: \n");
     scanf("%3lf %3lf", &y1, &y2);
 
     printf("Point #1: (%3lf, %3lf)\n",x1,y1 );
@@ -117,10 +117,10 @@ double calculateHeight()
 {
     double x1, x2, y1, y2;
 
-    printf("Please enter x1 and x2: ");
+    printf("Please enter x1 and x2: \n");
     scanf("%3lf %3lf", &x1, &x2);
 
-    printf("Please enter y1 and y2: ");
+    printf("Please enter y1 and y2: \n");
     scanf("%3lf %3lf", &y1, &y2);
 
     printf("Point #1: (%3lf, %3lf)\n",x1,y1 );

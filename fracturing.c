@@ -85,7 +85,7 @@ double calculateArea()
     printf("Point #2: (%3lf, %3lf)\n",x2,y2 );
 
     double dist = distanceFormula(x1, y1, x2, y2);
-
+ 
     double area = (M_PI * pow(dist,2));
 
     printf("The area of the city encompassed by your request is %3lf\n",area);
@@ -110,7 +110,7 @@ double calculateWidth()
 
     printf("The width of the city encompassed by your request is %3lf\n", dist );
 
-    return 2;
+    return 3;
 }
 
 double calculateHeight()
@@ -130,7 +130,7 @@ double calculateHeight()
 
     printf("The height of the city encompassed by your request is %3lf\n", dist);
 
-    return 1;
+    return 3;
 }
 
 //double askForUserInput()

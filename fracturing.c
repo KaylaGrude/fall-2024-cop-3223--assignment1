@@ -1,7 +1,14 @@
+// Kayla Grude
+// UCFID: 5692611
+// Professor Parra
+// 9/7/24
+/////////////////////////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <math.h>
 #define pi 3.14159;
 
+
+// functions called to keep the top clean
 double distanceFormula();
 double calculateDistance();
 double calculatePerimeter();
@@ -21,6 +28,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+// distance formula called in all the rest of the functions
 double distanceFormula(double x1, double x2, double y1, double y2)
 {
     double x = pow((x2-x1),2);
@@ -29,6 +37,7 @@ double distanceFormula(double x1, double x2, double y1, double y2)
     return distance;
 }
 
+// just distance betwen two points no extra calculations
 double calculateDistance()
 {
     double x1, x2, y1, y2;
@@ -49,6 +58,7 @@ double calculateDistance()
     return 0;
 }
 
+// calculating perimeter uses circumference formula
 double calculatePerimeter()
 {
    double x1, x2, y1, y2;
@@ -71,6 +81,7 @@ double calculatePerimeter()
     return 4;
 }
 
+// area of a circle uses distance function and area of a circle
 double calculateArea()
 {
     double x1, x2, y1, y2;
@@ -93,6 +104,7 @@ double calculateArea()
     return 5;
 }
 
+// just uses distance formula
 double calculateWidth()
 {
     double x1, x2, y1, y2;
@@ -113,6 +125,7 @@ double calculateWidth()
     return 3;
 }
 
+// just uses distance formula
 double calculateHeight()
 {
     double x1, x2, y1, y2;
@@ -133,6 +146,7 @@ double calculateHeight()
     return 3;
 }
 
+// tried to do this but got so burnt out from figuring everything else out i gave up i probably could do it
 //double askForUserInput()
 //{
    // double x1, x2, y1, y2;
